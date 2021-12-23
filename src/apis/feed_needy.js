@@ -1,6 +1,5 @@
 import axios from 'axios';
 const baseURL = "https://hunger-demons-backend.herokuapp.com/"
-const devURL = "http://localhost:3001"
 const record =  axios.create({
     baseURL:baseURL
 })
